@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Primary Conflict</title>
+
+
+  <!-- Bootstrap -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <div class="playerChar">
+    <h1>Primary Conflict</h1>
+    <h2>Pick a Primary.</h2>
+    <div class="row color-chooser">
+      <div id="red" class=" chooser col-lg-1 red">
+
+      </div>
+      <div id="yellow" class=" chooser col-lg-1 yellow">
+
+      </div>
+      <div id="blue" class=" chooser col-lg-1 blue">
+
+      </div>
+
+
+    </div>
+  </div>
+
+<!-- InfoBox -->
+
+  <div class="row infoBox hidden">
+    <div class="title col-lg-12">
+      <h1>Primary Conflict</h1>
+    </div>
+    <div class="playerName">
+      <h4 class="playerColor"></h4>
+    </div>
+    <div class="playerHp">
+      <h4>💚💚💚</h4>
+    </div>
+    <div class="scoreBox">
+      <h4></h4>
+    </div>
+    <div class="compHp">
+      <h4>💚💚💚</h4>
+    </div>
+    <div class="compName">
+      <h4 class="compColor"></h4>
+    </div>
+  </div>
+
+<!-- BatteleBox -->
+
+  <div class="row battleBox hidden">
+
+    <div class="col-lg-6 playerIcon">
+      <h3 class="playerMessage"></h3>
+      <div class="icon playerImg">
+
+
+      </div>
+
+    </div>
+    <div class="col-lg-6 compIcon">
+      <h3 class="compMessage"></h3>
+      <div class="icon compImg">
+
+      </div>
+    </div>
+    <div class="row actions">
+      <div class="col-lg-4">
+      <button id="fight" class="playerAction" type="button" name="button">Fight</button>
+
+      </div>
+      <div class="col-lg-4">
+        <button id="heal" class="playerAction" type="button" name="button">Heal</button>
+      </div>
+    </div>
+  </div>
+  <h1 id="final" class="hidden"></h1>
+
+
+
+
+
+
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- Index JS connection -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

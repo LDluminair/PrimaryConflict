@@ -1,0 +1,80 @@
+
+body{
+  text-align: center;
+
+}
+
+/* Color Choosers */
+
+.color-chooser{
+  width: 80%;
+  margin: auto;
+}
+.chooser{
+  border: 1px solid;
+  border-radius: 100%;
+  margin: 20px auto;
+  height: 100px;
+  width: 100px;
+
+}
+
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.hidden{
+  display: none;
+}
+
+/* ----------------------Info Box---------------------- */
+.title{
+  margin-bottom: 30px;
+}
+.infoBox{
+  width:90%;
+  margin: 50px auto 5px;
+  padding: 5px;
+}
+.playerColor{
+
+}
+.scoreBox{
+  text-align: center;
+  margin:auto;
+}
+.compColor{
+  text-align: right;
+}
+
+/* ----------------------Battle Box-------------------- */
+
+.battleBox{
+
+  width:90%;
+  margin: 2px auto;
+  border: 2px solid;
+}
+.playerIcon{
+  margin:auto;
+
+}
+.compIcon{
+  margin: auto;
+}
+.icon{
+
+  border-radius: 100%;
+  border: 1px solid;
+  margin: 10px auto;
+  height: 100px;
+  width: 100px;
+}
+.actions{
+  margin-left: 215px;
+}
